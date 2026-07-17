@@ -5,15 +5,22 @@ This repository contains the complete RTL design and functional verification of 
 
 **Tools & Technologies**
 Language: Verilog HDL (IEEE 1364)
+
 EDA Tool: Xilinx Vivado ML 2025.2
+
 Simulation: XSim Simulator
+
 Target Device: Xilinx Artix-7
 
 **Architecture & Operations**
 The design utilizes a 3-bit opcode to execute the following operations:
+
 000: Addition (with unsigned overflow detection)
+
 001: Subtraction (with zero and signed overflow detection)
+
 010 - 101: Bitwise AND, OR, XOR, NOT
+
 110 - 111: Logical Shift Left, Logical Shift Right
 
 **Key Performance Metrics (Post-Synthesis)**
